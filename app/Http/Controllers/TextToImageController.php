@@ -84,8 +84,6 @@ class TextToImageController extends Controller
                 ],
             ]);
 
-            dd($response);
-
             if (!empty($response['choices'][0]['message']['content'])) {
                 $data[$i] = json_decode($response['choices'][0]['message']['content'], true);
             } else {
