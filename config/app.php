@@ -124,6 +124,8 @@ return [
 
     'key' => env('APP_KEY'),
 
+    'openai_api_key' => env('OPENAI_API_KEY'),
+
     'cipher' => 'AES-256-CBC',
 
     /*
